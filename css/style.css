@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background:  white; 
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    padding: 21px 15px;
+}
+nav{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+.logo img{
+     width: 150px;
+}
+.menu ul  li{
+    display: inline-block;
+    margin: 0px 25px ;
+    color: grey;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+ul{
+    list-style: none;
+}
+.active{
+    border-bottom: 2px solid blue !important;
+    color: black !important ; 
+    font-weight: 600;
+
+}
+.menu ul  li:hover{
+    border-bottom: 2px solid blue !important;
+    color: black !important ; 
+    font-weight: 600;
+
+}
+.button-account{
+    background-color: #FFD8DB;
+    color: blue;
+    padding: 20px;
+    border-radius: 30px;
+}
+.container{
+    width: 80%;
+    padding: 0 15px;
+    margin : 0 auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.left-content{
+width: 50%;
+}
+.right-content{
+width: 50%;
+}
+.bannercontent h1{
+    font-size: 76px;
+    font-weight: 800;
+    margin-bottom: 25px;
+     line-height: 70px;
+}
+.bannercontent p{
+      margin-bottom: 25px;
+    
+}
+.bannercontent button{
+    padding : 15px 25px;
+    background-color: #5243c0;
+    border: none;
+    color: white;
+    border-radius: 30px;
+
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+table tr{
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+table tr:hover{
+ background-color: white;
+}
+table tr:hover .blue{
+   display: block !important;
+}
+table tr:hover .grey {
+    display: none !important;
+
+}
+.textgrey{
+    color: lightgrey;
+}
+table tr td{
+    padding: 15px;
+
+}
+.blue{
+    display: none;
+}
+.underline{
+    background-color: #eb84a2;
+    width: 25px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+
